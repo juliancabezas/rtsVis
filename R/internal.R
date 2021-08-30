@@ -154,7 +154,7 @@ out <- function(input, type = 1, ll = NULL, msg = FALSE, sign = "", verbose = ge
 #' @noRd 
 .gg.bmap <- function(r, r_type, gglayer = FALSE, hillshade_layer=NULL, ...){
   extras <- list(...)
-  if(!is.null(extras$maxpixels)) maxpixels <- extras$maxpixels else maxpixels <- 500000
+  if(!is.null(extras$maxpixels)) maxpixels <- extras$maxpixels else maxpixels <- 5000000
   if(!is.null(extras$alpha)) alpha <- extras$alpha else alpha <- 1
   if(!is.null(extras$maxColorValue)) maxColorValue <- extras$maxColorValue else maxColorValue <- NA
   
